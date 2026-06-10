@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>247597878491-19uqmqcg9907eh3nked9oum8oo7jc0gp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.247597878491-19uqmqcg9907eh3nked9oum8oo7jc0gp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>247597878491-1deseso4rnluf9dagatbq3ofr67rnrd1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCG2T2jOj59XZpVjARa9qH7mwP9ExH-IA0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>247597878491</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.sandrasoft.ivf</string>
+	<key>PROJECT_ID</key>
+	<string>sandrasoft-8fe2b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sandrasoft-8fe2b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:247597878491:ios:e42f648270de77fa08d0fe</string>
+	<key>DATABASE_URL</key>
+	<string>https://sandrasoft-8fe2b-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

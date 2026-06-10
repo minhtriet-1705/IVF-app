@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">IVF App</string>
+    <string name="title_activity_main">IVF App</string>
+    <string name="package_name">app.sandrasoft.ivf</string>
+    <string name="custom_url_scheme">app.sandrasoft.ivf</string>
+</resources>
