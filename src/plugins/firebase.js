@@ -8,15 +8,14 @@ import {
 import { sleep } from "./helpers";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyC9OUgxdx89IIBBkLLjYuW7tCLJv_l5V4Y",
-  authDomain: "sandrasoft-8fe2b.firebaseapp.com",
-  projectId: "sandrasoft-8fe2b",
-  storageBucket: "sandrasoft-8fe2b.appspot.com",
-  messagingSenderId: "247597878491",
-  appId: "1:247597878491:web:58451d1659da966208d0fe",
-  measurementId: "G-26M2K5J74E",
+  apiKey: "AIzaSyDHde62EhI_4GZ9zi-B2kwq3c1-tlZx3vc",
+  authDomain: "ivf-app-new.firebaseapp.com",
+  projectId: "ivf-app-new",
+  storageBucket: "ivf-app-new.firebasestorage.app",
+  messagingSenderId: "92852289480",
+  appId: "1:92852289480:web:c2ea7a70ae6efe7d6b4afd",
   databaseURL:
-    "https://sandrasoft-8fe2b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "https://ivf-app-new-default-rtdb.asia-southeast1.firebasedatabase.app",
 };
 
 export function getGcpGsUrl() {
@@ -271,7 +270,7 @@ export async function firebaseUploadBase64(base64Str, name, onProgressFn) {
 
 // firebase messaging
 var fcmWebPushToken =
-  "BKc6-XOmrt3WzCQuAFcURCLwzIrYzkaTT-2zk-OuLA4-ZJE4Qa3mjDXJSgsla6I44ImOgxf77DfLxiw922y_hHw";
+  "BHDdtrzAD417UBdwT9vpDmJkijQAOI0wab4_TUVEfTrbIKWwtbSg_KRcPRWV3EF0EoIstI_i8WDHkqqeyDfJHyo";
 
 function getFcmInstance() {
   if (firebase.messaging.isSupported()) {

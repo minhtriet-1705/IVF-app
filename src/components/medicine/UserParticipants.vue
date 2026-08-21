@@ -202,7 +202,7 @@ export default {
       if (!this.medicineId || !phone) return;
       phone = this.formatPhoneNumber(phone);
       var resp = await axios.post(
-        `https://us-central1-sandrasoft-8fe2b.cloudfunctions.net/ivf_notifyCancelUser`,
+        `https://us-central1-ivf-app-new.cloudfunctions.net/ivf_notifyCancelUser`,
         // `http://localhost:5001/sandrasoft-8fe2b/us-central1/ivf_notifyCancelUser`,
         { medicineId: this.medicineId, phoneCancelled: phone }
       );

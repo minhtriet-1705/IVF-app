@@ -170,7 +170,7 @@ export default {
       if (!confirm(`${this.$t("common.removeMedicineConfirmMessage")}`)) return;
       this.exitingId = medicineId;
       var resp = await axios.post(
-        `https://us-central1-sandrasoft-8fe2b.cloudfunctions.net/ivf_notifyUserCancel`,
+        `https://us-central1-ivf-app-new.cloudfunctions.net/ivf_notifyUserCancel`,
         { medicineId, phoneCancelled: this.$phone }
       );
       console.log(resp.data);

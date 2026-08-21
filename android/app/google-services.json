@@ -1,151 +1,27 @@
 {
   "project_info": {
-    "project_number": "247597878491",
-    "firebase_url": "https://sandrasoft-8fe2b-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "sandrasoft-8fe2b",
-    "storage_bucket": "sandrasoft-8fe2b.appspot.com"
+    "project_number": "92852289480",
+    "firebase_url": "https://ivf-app-new-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ivf-app-new",
+    "storage_bucket": "ivf-app-new.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:247597878491:android:2f572373fe6b00aa08d0fe",
-        "android_client_info": {
-          "package_name": "app.sandrasoft.ble.test"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "247597878491-27ilhpdj6h80iths3toip7cigarah6r5.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "app.sandrasoft.ble.test",
-            "certificate_hash": "9ef7d301eca603d91514c7b2fa980b2bc24a2137"
-          }
-        },
-        {
-          "client_id": "247597878491-fe8ape13cmq2rf98m06q5ju9laqtmhj2.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBGHl7H0ZW6d5Xf7J39n7MKMZ8ec5tDrZM"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "247597878491-fe8ape13cmq2rf98m06q5ju9laqtmhj2.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "247597878491-19uqmqcg9907eh3nked9oum8oo7jc0gp.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "app.sandrasoft.ivf",
-                "app_store_id": "6444583009"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:247597878491:android:38a4bf13fbc4181608d0fe",
-        "android_client_info": {
-          "package_name": "app.sandrasoft.holtervn"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "247597878491-1deseso4rnluf9dagatbq3ofr67rnrd1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "app.sandrasoft.holtervn",
-            "certificate_hash": "17d84d2afd37c84d199b3008c8ea932bd95c3d42"
-          }
-        },
-        {
-          "client_id": "247597878491-1diplmrmnqkg40dne1nhu4bllbmo5714.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "app.sandrasoft.holtervn",
-            "certificate_hash": "19b9cc30a33e5dd516725331e559cbc3763e6c19"
-          }
-        },
-        {
-          "client_id": "247597878491-fe8ape13cmq2rf98m06q5ju9laqtmhj2.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBGHl7H0ZW6d5Xf7J39n7MKMZ8ec5tDrZM"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "247597878491-fe8ape13cmq2rf98m06q5ju9laqtmhj2.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "247597878491-19uqmqcg9907eh3nked9oum8oo7jc0gp.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "app.sandrasoft.ivf",
-                "app_store_id": "6444583009"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:247597878491:android:fa3d8e206c2f901e08d0fe",
+        "mobilesdk_app_id": "1:92852289480:android:1d970ca762bc2bf66b4afd",
         "android_client_info": {
           "package_name": "app.sandrasoft.ivf"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "247597878491-fsi9oh5di54pn70mcafjp1v67is28rg0.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "app.sandrasoft.ivf",
-            "certificate_hash": "9da16ca1d29fc8d9ff63f62c198f9fb5d56045b1"
-          }
-        },
-        {
-          "client_id": "247597878491-fe8ape13cmq2rf98m06q5ju9laqtmhj2.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBGHl7H0ZW6d5Xf7J39n7MKMZ8ec5tDrZM"
+          "current_key": "AIzaSyCvXeVZs-0_oqAmGqAVChyAnOHvgTjbq1I"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "247597878491-fe8ape13cmq2rf98m06q5ju9laqtmhj2.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "247597878491-19uqmqcg9907eh3nked9oum8oo7jc0gp.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "app.sandrasoft.ivf",
-                "app_store_id": "6444583009"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

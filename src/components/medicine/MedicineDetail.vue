@@ -361,7 +361,7 @@ export default {
       if (!confirm(`${this.$t("common.removeMedicineConfirmMessage")}`)) return;
       this.loading = true;
       await axios.post(
-        `https://us-central1-sandrasoft-8fe2b.cloudfunctions.net/ivf_notifyUserCancel`,
+        `https://us-central1-ivf-app-new.cloudfunctions.net/ivf_notifyUserCancel`,
         { medicineId: this.medicineId, phoneCancelled: this.$phone }
       );
       this.loading = false;
@@ -402,7 +402,7 @@ export default {
     async notifyParticipants(medicineId) {
       if (!medicineId) return;
       var resp = axios.post(
-        `https://us-central1-sandrasoft-8fe2b.cloudfunctions.net/ivf_notifyMedicineParticipants?medicineId=${medicineId}`
+        `https://us-central1-ivf-app-new.cloudfunctions.net/ivf_notifyMedicineParticipants?medicineId=${medicineId}`
         // `http://localhost:5001/sandrasoft-8fe2b/us-central1/ivf_notifyMedicineParticipants?medicineId=${medicineId}`
       );
       await this.sleep(1200);
@@ -412,7 +412,7 @@ export default {
     async notifyMedicineUpdated(medicineId) {
       if (!medicineId) return;
       var resp = axios.post(
-        `https://us-central1-sandrasoft-8fe2b.cloudfunctions.net/ivf_notifyMedicineUpdated?medicineId=${medicineId}`
+        `https://us-central1-ivf-app-new.cloudfunctions.net/ivf_notifyMedicineUpdated?medicineId=${medicineId}`
         // `http://localhost:5001/sandrasoft-8fe2b/us-central1/ivf_notifyMedicineParticipants?medicineId=${medicineId}`
       );
       await this.sleep(1200);
@@ -425,7 +425,7 @@ export default {
       if (!confirm(`${this.$t("common.completeMedicine")}`)) return;
       this.loading = true;
       axios.post(
-        `https://us-central1-sandrasoft-8fe2b.cloudfunctions.net/ivf_notifyMedicineCompleted?medicineId=${medicineId}`
+        `https://us-central1-ivf-app-new.cloudfunctions.net/ivf_notifyMedicineCompleted?medicineId=${medicineId}`
         // `http://localhost:5001/sandrasoft-8fe2b/us-central1/ivf_notifyMedicineParticipants?medicineId=${medicineId}`
       );
       await this.sleep(1200);

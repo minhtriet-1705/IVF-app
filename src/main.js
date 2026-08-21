@@ -526,7 +526,7 @@ Vue.mixin({
           await this.registerWebNotificationToken();
         }
       } catch (err) {
-        console.log(">>> registerNotificationToken Error", err.message);
+        console.error(">>> registerNotificationToken Error", err.code, err.message, err);
       }
     },
     async registerNativeNotificationToken() {

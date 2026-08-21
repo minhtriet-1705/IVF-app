@@ -96,7 +96,7 @@ export default {
     async save() {
       this.loading = true;
       axios.post(
-        `https://us-central1-sandrasoft-8fe2b.cloudfunctions.net/ivf_notifyAction`,
+        `https://us-central1-ivf-app-new.cloudfunctions.net/ivf_notifyAction`,
         {
           actionId: this.actionId,
           phone: this.$phone,

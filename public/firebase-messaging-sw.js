@@ -25,13 +25,12 @@ self.addEventListener("notificationclick", function (event) {
 });
 
 var firebaseConfig = {
-  apiKey: "AIzaSyC9OUgxdx89IIBBkLLjYuW7tCLJv_l5V4Y",
-  authDomain: "sandrasoft-8fe2b.firebaseapp.com",
-  projectId: "sandrasoft-8fe2b",
-  storageBucket: "sandrasoft-8fe2b.appspot.com",
-  messagingSenderId: "247597878491",
-  appId: "1:247597878491:web:58451d1659da966208d0fe",
-  measurementId: "G-26M2K5J74E",
+  apiKey: "AIzaSyDHde62EhI_4GZ9zi-B2kwq3c1-tlZx3vc",
+  authDomain: "ivf-app-new.firebaseapp.com",
+  projectId: "ivf-app-new",
+  storageBucket: "ivf-app-new.firebasestorage.app",
+  messagingSenderId: "92852289480",
+  appId: "1:92852289480:web:c2ea7a70ae6efe7d6b4afd",
 };
 
 firebase.initializeApp(firebaseConfig);

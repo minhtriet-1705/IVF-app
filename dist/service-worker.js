@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.7349b53dc0c0d0f7fb7d7d5df59c7fd1.js"
+  "/precache-manifest.c4b34bcfd740ccf8d8b2a4b47d21d582.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ivf.phongkham.co"});

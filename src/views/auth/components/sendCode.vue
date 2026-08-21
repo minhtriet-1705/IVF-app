@@ -106,6 +106,7 @@ export default {
         // send code success!!!
         this.$emit("success", result);
       } catch (err) {
+        console.error("Phone auth error:", err.code, err.message, err);
         this.showErrorPopup(`${this.$t("error.verifycodefailed")}`);
         this.errored = true;
       }
